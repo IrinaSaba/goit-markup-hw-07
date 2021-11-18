@@ -1,17 +1,17 @@
-.main__information-photo.section {
+.work-details.section {
   padding-top: 47px;
   padding-bottom: 94px;
 }
-.main__information-photo-img {
+.work-details__gallery-list {
   display: flex;
   .list:not(:last-child) {
     margin-right: 30px;
   }
 }
-.main__information-photo-img-box {
+.work-details__gallery-item-box {
   position: relative;
 }
-.main__information-photo-img-text {
+.work-details__gallery-item-text {
   position: absolute;
   bottom: 0;
   left: 0;

@@ -1,16 +1,15 @@
-.main__details-information.section {
+.skils.section {
   padding-top: 94px;
   padding-bottom: 47px;
 }
-.main__details {
+.skils__details-list {
   display: flex;
   justify-content: center;
 }
-
-.main__details-info:not(:last-child) {
+.skils__details-item:not(:last-child) {
   margin-right: 30px;
 }
-.main__details-info-block {
+.skils__details-block {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +19,7 @@
   height: 120px;
 }
 
-.main__details-info-title {
+.skils__details-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;

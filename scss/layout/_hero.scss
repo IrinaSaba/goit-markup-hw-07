@@ -1,4 +1,4 @@
-.header__hero {
+.hero {
   background-color: var(--color-image);
   letter-spacing: 0.06em;
   text-align: center;
@@ -14,7 +14,7 @@
   margin: 0 auto;
   max-width: 1600px;
 }
-.header__hero-title {
+.hero__title {
   color: var(--color-light);
   font-size: 44px;
   font-weight: 900;
@@ -25,7 +25,7 @@
   margin-right: auto;
   margin-left: auto;
 }
-.header__hero-btn {
+.hero__btn {
   padding: 10px 32px;
   background-color: var(--special-color);
   border-radius: 4px;

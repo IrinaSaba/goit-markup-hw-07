@@ -4,11 +4,22 @@
   border-bottom: solid 1px var(--color-of-details);
   padding-top: 24px;
 }
-.page-header-container {
+.page-header__container {
   display: flex;
   align-items: baseline;
 }
-.header__site-nav {
+.page-header__info-nav {
+  display: flex;
+  align-items: baseline;
+}
+.logo {
+  font-size: 26px;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  line-height: 1.15;
+}
+.menu__list {
   display: flex;
   align-items: center;
   margin-right: 295px;
@@ -19,39 +30,7 @@
     margin-right: 50px;
   }
 }
-.header__contact {
-  display: flex;
-  align-items: center;
-  & .link:hover,
-  & .link:focus {
-    color: var(--special-color);
-  }
-}
-
-.logo {
-  font-size: 26px;
-  font-family: 'Raleway', sans-serif;
-  letter-spacing: 0.03em;
-  font-weight: 700;
-  line-height: 1.15;
-}
-.studio,
-.portfolio,
-.contact {
-  color: var(--primary-text-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-.current {
-  color: var(--special-color);
-}
-.header__site-nav-item {
-  position: relative;
-  padding-bottom: 25px;
-}
-.header__site-nav {
+.menu__list {
   .current::after {
     color: var(--special-color);
     content: '';
@@ -64,8 +43,7 @@
     bottom: 0;
   }
 }
-
-.header__site-nav {
+.menu__list {
   .link {
     padding-bottom: 25px;
     &:hover,
@@ -74,27 +52,46 @@
     }
   }
 }
-
-.header__info-first {
+.menu__list-item {
+  position: relative;
+  padding-bottom: 25px;
+}
+.page-header__contact {
   display: flex;
-  align-items: baseline;
+  align-items: center;
+  & .link:hover,
+  & .link:focus {
+    color: var(--special-color);
+  }
 }
-.header__info-first.telephone {
-  display: flex;
-  align-items: flex-start;
-}
-
-.header__contact-icon {
-  fill: currentColor;
-  margin-right: 10px;
-}
-.email,
-.telephone {
+.menu__list-item-studio,
+.menu__list-item-portfolio,
+.menu__list-item-contact {
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.email {
+.current {
+  color: var(--special-color);
+}
+.page-header__contact-telephone {
+  display: flex;
+  align-items: flex-start;
+}
+
+.page-header__contact-icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+.page-header__contact-email,
+.page-header__contact-telephone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.page-header__contact-email {
   margin-right: 20px;
 }

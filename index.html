@@ -13,24 +13,24 @@
 </head>  
 <body>
    <header class="page-header">
-      <div class="container page-header-container">
-         <nav class="header__info-first">
+      <div class="container page-header__container">
+         <nav class="page-header__info-nav">
             <a class="logo link" href="./index.html"><b style="color:#2196F3">Web<span style="color:#000000;">Studio</span></b></a>
-            <ul class="header__site-nav">
-               <li class="list header__site-nav-item"><a class="link studio current" href="./index.html">Студия</a></li>
-               <li class="list header__site-nav-item"><a class="link portfolio" href="./portfolio.html">Портфолио</a></li>
-               <li class="list header__site-nav-item"><a class="link contact" href="#contacts">Контакты</a></li>
+            <ul class="menu__list">
+               <li class="list menu__list-item"><a class="link menu__list-item-studio current" href="./index.html">Студия</a></li>
+               <li class="list menu__list-item"><a class="link menu__list-item-portfolio" href="./portfolio.html">Портфолио</a></li>
+               <li class="list menu__list-item"><a class="link menu__list-item-contact" href="#contacts">Контакты</a></li>
             </ul>
          </nav>   
-         <div class="header__contact">
-            <a class="header__info-first link email grey" href="mailto:info@devstudio.com">
-               <svg class="header__contact-icon" width="16" height="12">
+         <div class="page-header__contact">
+            <a class="page-header__contact-email link grey" href="mailto:info@devstudio.com">
+               <svg class="page-header__contact-icon" width="16" height="12">
                <use
                   href="./images/symbol-defs.svg#icon-envelope"
                ></use>
                </svg>info@devstudio.com</a>
-            <a class="header__info-first link telephone grey" href="tel:+380961111111">
-               <svg class="header__contact-icon" width="10" height="16">
+            <a class="page-header__contact-telephone link grey" href="tel:+380961111111">
+               <svg class="page-header__contact-icon" width="10" height="16">
                   <use
                      href="./images/symbol-defs.svg#icon-telephone"
                   ></use>
@@ -39,63 +39,63 @@
       </div>   
    </header>
    <main>
-      <section class="header__hero overlay">
+      <section class="hero overlay">
          <div class="container">
-            <h1 class="header__hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-            <button class="header__hero-btn" data-modal-open type="button">Заказать услугу</button>
+            <h1 class="hero__title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+            <button class="hero__btn" data-modal-open type="button">Заказать услугу</button>
          </div>   
       </section>   
-      <section class="main__details-information section">
+      <section class="skils section">
          <div class="container">
-            <ul class="main__details">
-               <li class="main__details-info list">
-                  <div class="main__details-info-block">
-                     <svg class="main__details-info-block-icon" width="70" height="70">
+            <ul class="skils__details-list">
+               <li class="skils__details-item list">
+                  <div class="skils__details-block">
+                     <svg class="skils__details-icon" width="70" height="70">
                         <use
                         href="./images/symbol-defs.svg#icon-antenna"
                         ></use>
                       </svg>
                   </div>
-                  <h3 class="main__details-info-title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
+                  <h3 class="skils__details-title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
                   <p class="grey text">
                      Идейные соображения, а также начало повседневной работы по формированию позиции.
                   </p>
                </li> 
-               <li class="main__details-info list">
-                  <div class="main__details-info-block">
-                     <svg class="main__details-info-block-icon" width="70" height="70">
+               <li class="skils__details-item list">
+                  <div class="skils__details-block">
+                     <svg class="skils__details-icon" width="70" height="70">
                         <use
                         href="./images/symbol-defs.svg#icon-clock"
                         ></use>
                       </svg>
                   </div>
-                  <h3 class="main__details-info-title">ПУНКТУАЛЬНОСТЬ</h3>
+                  <h3 class="skils__details-title">ПУНКТУАЛЬНОСТЬ</h3>
                   <p class="grey text">
                      Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
                   </p>
                </li>   
-               <li class="main__details-info list note">
-                  <div class="main__details-info-block">
-                     <svg class="main__details-info-block-icon" width="70" height="70">
+               <li class="skils__details-item list note">
+                  <div class="skils__details-block">
+                     <svg class="skils__details-icon" width="70" height="70">
                         <use
                         href="./images/symbol-defs.svg#icon-diagram"
                         ></use>
                       </svg>
                   </div>
-                  <h3 class="main__details-info-title">ПЛАНИРОВАНИЕ</h3>
+                  <h3 class="skils__details-title">ПЛАНИРОВАНИЕ</h3>
                   <p class="grey text">
                      Равным образом консультация с широким активом в значительной степени обуславливает.
                   </p>
                </li>   
-               <li class="main__details-info list">
-                  <div class="main__details-info-block">
-                     <svg class="main__details-info-block-icon" width="70" height="70">
+               <li class="skils__details-item list">
+                  <div class="skils__details-block">
+                     <svg class="skils__details-icon" width="70" height="70">
                         <use
                         href="./images/symbol-defs.svg#icon-astronaut"
                         ></use>
                       </svg>
                   </div>
-                  <h3 class="main__details-info-title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
+                  <h3 class="skils__details-title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
                   <p class="grey text">
                      Значимость этих проблем настолько очевидна, что реализация плановых заданий.
                   </p>
@@ -103,30 +103,34 @@
             </ul> 
          </div>
       </section>     
-      <section class="main__information-photo section">
+      <section class="work-details section">
          <div class="container">
             <h2 class="work title">Чем мы занимаемся</h2>
-            <ul class="main__information-photo-img">
+            <ul class="work-details__gallery-list">
                <li class="list">
-                   <div class="main__information-photo-img-box">
+                   <div class="work-details__gallery-item-box">
                         <img src="./images/box-1.jpg" alt="руки и компьютер" width="370">
-                        <p class="main__information-photo-img-text">
+                        <p class="work-details__gallery-item-text">
                             Десктопные приложения
                         </p>
                    </div>
                 </li>     
-               <li class="list"> <div class="main__information-photo-img-box">
-                <img src="./images/box-2.jpg" alt="руки и компьютер" width="370">
-                <p class="main__information-photo-img-text">
-                    Мобильные приложения
-                </p>
-           </div></li>  
-               <li class="list"> <div class="main__information-photo-img-box">
-                <img src="./images/box-3.jpg" alt="руки и компьютер" width="370">
-                <p class="main__information-photo-img-text">
-                    Дизайнерские решения
-                </p>
-           </div></li> 
+                <li class="list"> 
+                    <div class="work-details__gallery-item-box">
+                        <img src="./images/box-2.jpg" alt="руки и компьютер" width="370">
+                        <p class="work-details__gallery-item-text">
+                            Мобильные приложения
+                        </p>
+                    </div>
+                </li>  
+                <li class="list"> 
+                    <div class="work-details__gallery-item-box">
+                        <img src="./images/box-3.jpg" alt="руки и компьютер" width="370">
+                        <p class="work-details__gallery-item-text">
+                            Дизайнерские решения
+                        </p>
+                    </div>
+                </li> 
             </ul>
          </div>   
       </section>

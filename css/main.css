@@ -240,33 +240,14 @@ ul {
   padding-top: 24px;
 }
 
-.page-header-container {
+.page-header__container {
   display: flex;
   align-items: baseline;
 }
 
-.header__site-nav {
+.page-header__info-nav {
   display: flex;
-  align-items: center;
-  margin-right: 295px;
-}
-
-.header__site-nav .list:first-child {
-  margin-left: 93px;
-}
-
-.header__site-nav .list:not(:last-child) {
-  margin-right: 50px;
-}
-
-.header__contact {
-  display: flex;
-  align-items: center;
-}
-
-.header__contact .link:hover,
-.header__contact .link:focus {
-  color: var(--special-color);
+  align-items: baseline;
 }
 
 .logo {
@@ -277,26 +258,21 @@ ul {
   line-height: 1.15;
 }
 
-.studio,
-.portfolio,
-.contact {
-  color: var(--primary-text-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+.menu__list {
+  display: flex;
+  align-items: center;
+  margin-right: 295px;
 }
 
-.current {
-  color: var(--special-color);
+.menu__list .list:first-child {
+  margin-left: 93px;
 }
 
-.header__site-nav-item {
-  position: relative;
-  padding-bottom: 25px;
+.menu__list .list:not(:last-child) {
+  margin-right: 50px;
 }
 
-.header__site-nav .current::after {
+.menu__list .current::after {
   color: var(--special-color);
   content: '';
   height: 4px;
@@ -308,42 +284,66 @@ ul {
   bottom: 0;
 }
 
-.header__site-nav .link {
+.menu__list .link {
   padding-bottom: 25px;
 }
 
-.header__site-nav .link:hover, .header__site-nav .link:focus {
+.menu__list .link:hover, .menu__list .link:focus {
   color: var(--special-color);
 }
 
-.header__info-first {
+.menu__list-item {
+  position: relative;
+  padding-bottom: 25px;
+}
+
+.page-header__contact {
   display: flex;
-  align-items: baseline;
+  align-items: center;
 }
 
-.header__info-first.telephone {
-  display: flex;
-  align-items: flex-start;
+.page-header__contact .link:hover,
+.page-header__contact .link:focus {
+  color: var(--special-color);
 }
 
-.header__contact-icon {
-  fill: currentColor;
-  margin-right: 10px;
-}
-
-.email,
-.telephone {
+.menu__list-item-studio,
+.menu__list-item-portfolio,
+.menu__list-item-contact {
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
-.email {
+.current {
+  color: var(--special-color);
+}
+
+.page-header__contact-telephone {
+  display: flex;
+  align-items: flex-start;
+}
+
+.page-header__contact-icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.page-header__contact-email,
+.page-header__contact-telephone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.page-header__contact-email {
   margin-right: 20px;
 }
 
-.header__hero {
+.hero {
   background-color: var(--color-image);
   letter-spacing: 0.06em;
   text-align: center;
@@ -360,7 +360,7 @@ ul {
   max-width: 1600px;
 }
 
-.header__hero-title {
+.hero__title {
   color: var(--color-light);
   font-size: 44px;
   font-weight: 900;
@@ -372,7 +372,7 @@ ul {
   margin-left: auto;
 }
 
-.header__hero-btn {
+.hero__btn {
   padding: 10px 32px;
   background-color: var(--special-color);
   border-radius: 4px;
@@ -385,7 +385,7 @@ ul {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header__hero-btn:hover {
+.hero__btn:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -495,21 +495,21 @@ ul {
   margin-top: 4px;
 }
 
-.main__details-information.section {
+.skils.section {
   padding-top: 94px;
   padding-bottom: 47px;
 }
 
-.main__details {
+.skils__details-list {
   display: flex;
   justify-content: center;
 }
 
-.main__details-info:not(:last-child) {
+.skils__details-item:not(:last-child) {
   margin-right: 30px;
 }
 
-.main__details-info-block {
+.skils__details-block {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -519,7 +519,7 @@ ul {
   height: 120px;
 }
 
-.main__details-info-title {
+.skils__details-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -546,24 +546,24 @@ ul {
   margin-bottom: 50px;
 }
 
-.main__information-photo.section {
+.work-details.section {
   padding-top: 47px;
   padding-bottom: 94px;
 }
 
-.main__information-photo-img {
+.work-details__gallery-list {
   display: flex;
 }
 
-.main__information-photo-img .list:not(:last-child) {
+.work-details__gallery-list .list:not(:last-child) {
   margin-right: 30px;
 }
 
-.main__information-photo-img-box {
+.work-details__gallery-item-box {
   position: relative;
 }
 
-.main__information-photo-img-text {
+.work-details__gallery-item-text {
   position: absolute;
   bottom: 0;
   left: 0;
