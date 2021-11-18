@@ -1,0 +1,133 @@
+.footer {
+  background-color: var(--color-image);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.container-footer {
+  display: flex;
+  align-items: baseline;
+}
+.logo-footer {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  display: block;
+}
+.address {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  margin-top: 20px;
+}
+.footer__contact-color {
+  color: var(--color-footer-contact);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  display: block;
+}
+.email-footer {
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+.footer-contact {
+  margin-right: 70px;
+}
+
+.footer-social-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.footer-socials-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.footer-socials-item {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+}
+
+.footer-socials-item:last-child {
+  margin-right: 0;
+}
+
+.footer-socials-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: var(--color-footer-social);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.footer-socials-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.footer-socials-link:hover,
+.footer-socials-link:focus {
+  background-color: var(--special-color);
+}
+.footer-email-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.footer-email-client {
+  margin-left: 93px;
+}
+.confirmation-email {
+  display: flex;
+}
+.footer-input {
+  width: 358px;
+  height: 50px;
+  background-color: var(--color-image);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: var(--color-contact);
+  padding-left: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-right: 12px;
+}
+.footer__btn-email {
+  color: var(--color-light);
+  background-color: var(--special-color);
+  border-radius: 4px;
+  border: none;
+  padding: 10px 62px 10px 29px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  position: relative;
+}
+.footer__btn-email span {
+  margin-left: 10px;
+}
+
+.input-icon-email {
+  position: absolute;
+  fill: var(--color-light);
+  top: 50%;
+  transform: translateY(-50%);
+}

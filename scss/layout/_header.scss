@@ -1,0 +1,95 @@
+.page-header {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: solid 1px var(--color-of-details);
+  padding-top: 24px;
+}
+.page-header-container {
+  display: flex;
+  align-items: baseline;
+}
+.header__site-nav {
+  display: flex;
+  align-items: center;
+}
+.header__contact {
+  display: flex;
+  align-items: center;
+}
+.header__site-nav .list:first-child {
+  margin-left: 93px;
+}
+.header__site-nav .list:not(:last-child) {
+  margin-right: 50px;
+}
+.header__site-nav {
+  margin-right: 295px;
+}
+.logo {
+  font-size: 26px;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  line-height: 1.15;
+}
+.studio,
+.portfolio,
+.contact {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.current {
+  color: var(--special-color);
+}
+.header__site-nav-item {
+  position: relative;
+  padding-bottom: 25px;
+}
+.header__site-nav .current::after {
+  color: var(--special-color);
+  content: '';
+  height: 4px;
+  width: 100%;
+  background-color: var(--special-color);
+  border-radius: 2px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+}
+.header__site-nav .link {
+  padding-bottom: 25px;
+}
+.header__site-nav .link:hover,
+.header__site-nav .link:focus {
+  color: var(--special-color);
+}
+.header__contact .link:hover,
+.header__contact .link:focus {
+  color: var(--special-color);
+}
+.header__info-first {
+  display: flex;
+  align-items: baseline;
+}
+.header__info-first.telephone {
+  display: flex;
+  align-items: flex-start;
+}
+
+.header__contact-icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+.email,
+.telephone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.email {
+  margin-right: 20px;
+}
