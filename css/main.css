@@ -580,27 +580,30 @@ ul {
   text-transform: uppercase;
 }
 
-.main__information-teachers {
+.teachers {
   background-color: var(--color-background);
-}
-
-.main__information-teachers.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.main__information-teachers-photo {
+.teachers__list {
   display: flex;
 }
 
-.main__information-teachers-photo .list:not(:last-child) {
+.teachers__list .list:not(:last-child) {
   margin-right: 30px;
 }
 
-.main__information-teachers-photo .teachers-socials-list {
+.teachers__list .teachers-socials-list {
   display: flex;
   justify-content: center;
   margin-top: 16px;
+}
+
+.teachers__item {
+  background-color: var(--color-light);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .teachers-socials-item {
@@ -631,12 +634,6 @@ ul {
 
 .teachers-socials-icon {
   fill: currentColor;
-}
-
-.block {
-  background-color: var(--color-light);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
 }
 
 .workers {
