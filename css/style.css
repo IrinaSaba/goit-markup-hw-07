@@ -1,17 +1,3 @@
-:root {
-  --primary-text-color: #212121;
-  --special-color: #2196f3;
-  --color-contact: #757575;
-  --color-light: #ffffff;
-  --color-of-details: #ececec;
-  --color-background: #f5f4fa;
-  --color-image: #2f303a;
-  --color-footer-contact: rgba(255, 255, 255, 0.6);
-  --color-border: #eeeeee;
-  --color-footer-social: #44454e;
-  --color-teachers-social: #afb1b8;
-  --color-details-info: #e5e5e5;
-}
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
@@ -27,6 +13,8 @@ h6 {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 ul {
   list-style-type: none;

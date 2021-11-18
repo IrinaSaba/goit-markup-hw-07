@@ -1,8 +1,22 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,IAAI;CACvB",
+    "mappings": "ACAA,AAAA,KAAK,CAAC;EACJ,oBAAoB,CAAA,QAAC;EACrB,eAAe,CAAA,QAAC;EAChB,eAAe,CAAA,QAAC;EAChB,aAAa,CAAA,QAAC;EACd,kBAAkB,CAAA,QAAC;EACnB,kBAAkB,CAAA,QAAC;EACnB,aAAa,CAAA,QAAC;EACd,sBAAsB,CAAA,yBAAC;EACvB,cAAc,CAAA,QAAC;EACf,qBAAqB,CAAA,QAAC;EACtB,uBAAuB,CAAA,QAAC;EACxB,oBAAoB,CAAA,QAAC;CACtB",
     "sources": [
-        "../scss/main.scss"
+        "../scss/main.scss",
+        "../scss/utils/_vars.scss",
+        "../scss/base/_common.scss",
+        "../scss/base/_reset.scss",
+        "../scss/components/_container.scss",
+        "../scss/components/_modal.scss",
+        "../scss/layout/_header.scss",
+        "../scss/layout/_hero.scss",
+        "../scss/layout/_portfolio-nav.scss",
+        "../scss/layout/_portfolio-projects.scss",
+        "../scss/layout/_skils.scss",
+        "../scss/layout/_work-details.scss",
+        "../scss/layout/_teachers.scss",
+        "../scss/layout/_clients.scss",
+        "../scss/layout/_footer.scss"
     ],
     "names": [],
     "file": "main.css"
