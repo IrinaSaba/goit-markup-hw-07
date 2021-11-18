@@ -55,10 +55,9 @@
   width: 44px;
   height: 44px;
   margin-right: 10px;
-}
-
-.footer-socials-item:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .footer-socials-link {
@@ -70,6 +69,10 @@
   align-items: center;
   justify-content: center;
   color: #ffffff;
+  &:hover,
+  &:focus {
+    background-color: var(--special-color);
+  }
 }
 
 .footer-socials-icon {
@@ -78,10 +81,6 @@
   fill: currentColor;
 }
 
-.footer-socials-link:hover,
-.footer-socials-link:focus {
-  background-color: var(--special-color);
-}
 .footer-email-title {
   font-weight: 700;
   font-size: 14px;
@@ -121,8 +120,10 @@
   letter-spacing: 0.06em;
   position: relative;
 }
-.footer__btn-email span {
-  margin-left: 10px;
+.footer__btn-email {
+  span {
+    margin-left: 10px;
+  }
 }
 
 .input-icon-email {

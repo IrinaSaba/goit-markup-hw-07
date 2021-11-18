@@ -4,6 +4,9 @@
 }
 .main__information-photo-img {
   display: flex;
+  .list:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .main__information-photo-img-box {
   position: relative;
@@ -23,8 +26,4 @@
   letter-spacing: 0.03em;
   padding: 27px 82px;
   text-transform: uppercase;
-}
-
-.main__information-photo-img .list:not(:last-child) {
-  margin-right: 30px;
 }
