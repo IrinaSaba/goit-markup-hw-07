@@ -594,7 +594,7 @@ ul {
   margin-right: 30px;
 }
 
-.teachers__list .teachers-socials-list {
+.teachers__list .teachers__socials-list {
   display: flex;
   justify-content: center;
   margin-top: 16px;
@@ -606,17 +606,30 @@ ul {
   border-radius: 0px 0px 4px 4px;
 }
 
-.teachers-socials-item {
+.teachers__item-names {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.teachers__item-names-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.teachers__socials-item {
   width: 44px;
   height: 44px;
   margin-right: 10px;
 }
 
-.teachers-socials-item:last-child {
+.teachers__socials-item:last-child {
   margin-right: 0;
 }
 
-.teachers-socials-item .teachers-socials-link {
+.teachers__socials-item .teachers__socials-link {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -627,26 +640,13 @@ ul {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.teachers-socials-item .teachers-socials-link:hover, .teachers-socials-item .teachers-socials-link:focus {
+.teachers__socials-item .teachers__socials-link:hover, .teachers__socials-item .teachers__socials-link:focus {
   background-color: var(--special-color);
   color: var(--color-light);
 }
 
-.teachers-socials-icon {
+.teachers__socials-icon {
   fill: currentColor;
-}
-
-.workers {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
-.workers-names-type {
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 .grey.workers {
