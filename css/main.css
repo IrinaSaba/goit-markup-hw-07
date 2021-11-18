@@ -694,18 +694,22 @@ ul {
   border: solid 1px var(--special-color);
 }
 
-.footer {
+.page-footer {
   background-color: var(--color-image);
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.container-footer {
+.page-footer__container {
   display: flex;
   align-items: baseline;
 }
 
-.logo-footer {
+.page-footer__contact {
+  margin-right: 70px;
+}
+
+.page-footer__logo {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -714,7 +718,7 @@ ul {
   display: block;
 }
 
-.address {
+.page-footer__address {
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
@@ -723,7 +727,7 @@ ul {
   margin-top: 20px;
 }
 
-.footer__contact-color {
+.page-footer__contact-info {
   color: var(--color-footer-contact);
   font-size: 14px;
   line-height: 1.71;
@@ -731,16 +735,12 @@ ul {
   display: block;
 }
 
-.email-footer {
+.page-footer__email {
   margin-top: 9px;
   margin-bottom: 9px;
 }
 
-.footer-contact {
-  margin-right: 70px;
-}
-
-.footer-social-title {
+.page-footer__social-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -748,23 +748,23 @@ ul {
   text-transform: uppercase;
 }
 
-.footer-socials-list {
+.page-footer__socials-list {
   display: flex;
   justify-content: center;
   margin-top: 16px;
 }
 
-.footer-socials-item {
+.page-footer__socials-item {
   width: 44px;
   height: 44px;
   margin-right: 10px;
 }
 
-.footer-socials-item:last-child {
+.page-footer__socials-item:last-child {
   margin-right: 0;
 }
 
-.footer-socials-link {
+.page-footer__socials-link {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -775,27 +775,27 @@ ul {
   color: #ffffff;
 }
 
-.footer-socials-link:hover, .footer-socials-link:focus {
+.page-footer__socials-link:hover, .page-footer__socials-link:focus {
   background-color: var(--special-color);
 }
 
-.footer-socials-icon {
+.page-footer__socials-icon {
   width: 20px;
   height: 20px;
   fill: currentColor;
 }
 
-.footer-email-title {
+.page-footer__client {
+  margin-left: 93px;
+}
+
+.page-footer__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 20px;
-}
-
-.footer-email-client {
-  margin-left: 93px;
 }
 
 .confirmation-email {
@@ -816,7 +816,7 @@ ul {
   margin-right: 12px;
 }
 
-.footer__btn-email {
+.page-footer__btn-email {
   color: var(--color-light);
   background-color: var(--special-color);
   border-radius: 4px;
@@ -829,11 +829,11 @@ ul {
   position: relative;
 }
 
-.footer__btn-email span {
+.page-footer__btn-email span {
   margin-left: 10px;
 }
 
-.input-icon-email {
+.page-footer__icon {
   position: absolute;
   fill: var(--color-light);
   top: 50%;
