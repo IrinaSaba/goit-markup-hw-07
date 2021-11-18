@@ -1,22 +1,21 @@
-.main__information-clients.section {
+.clients.section {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--color-details-info);
 }
-.main__information-clients.work {
+.clients__title {
   margin-bottom: 50px;
 }
-.clients-socials-list {
+.clients__socials-list {
   display: flex;
 }
-.clients-socials-item {
+.clients__socials-item {
   margin-right: 30px;
   &:last-child {
     margin-right: 0;
   }
 }
-
-.clients-socials-link {
+.clients__socials-link {
   display: flex;
   justify-content: center;
   align-items: center;
