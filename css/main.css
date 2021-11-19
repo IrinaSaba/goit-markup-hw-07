@@ -658,11 +658,11 @@ ul {
 .clients.section {
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: var(--color-details-info);
 }
 
 .clients__title {
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .clients__socials-list {
